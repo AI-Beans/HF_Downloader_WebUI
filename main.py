@@ -17,9 +17,9 @@ def download_model(model_name, token, allow_patterns, ignore_patterns, download_
             
             snapshot_download(
                 repo_id=model_name,
-                local_dir_use_symlinks=True,  # 在local-dir指定的目录中都是一些“链接文件”
+                local_dir_use_symlinks=True,  
                 local_dir=model_name,
-                token=token,  # huggingface的token
+                token=token,  # huggingface-read-token
                 resume_download=True,
                 allow_patterns=allow_patterns,
                 ignore_patterns=ignore_patterns
