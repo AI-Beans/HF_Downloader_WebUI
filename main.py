@@ -2,7 +2,7 @@ import os
 import gradio as gr
 from huggingface_hub import snapshot_download
 
-# 设置为hf的国内镜像网站
+# Set to the domestic mirror site of HuggingFace
 os.environ["HF_ENDPOINT"] = "https://hf-mirror.com"
 
 def download_model(model_name, token, allow_patterns, ignore_patterns, download_all):
@@ -38,7 +38,7 @@ def update_visibility(download_all):
     else:
         return gr.update(visible=True, value="*.md,*.json"), gr.update(visible=True, value="*vocab.json")
 
-# 创建Gradio界面
+
 with gr.Blocks() as iface:
     gr.Markdown("# HuggingFace-Downloader-WebUI")
     gr.Markdown("1.Enter the model name and your HuggingFace token to download the model. You can customize the download patterns or download all files.")  
