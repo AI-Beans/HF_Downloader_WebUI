@@ -36,7 +36,7 @@ This tool helps you download models and datasets from HuggingFace in mainland Ch
 3. Click the "Download" button to start the download.
 
 ### 🎨 Example Interface
-![Example Interface]([https://github.com/AI-Beans/HF_Downloader_WebUI/blob/main/screenshot1.png)])
+![Example Interface](https://github.com/AI-Beans/HF_Downloader_WebUI/raw/main/screenshot1.png)
 
 ## 📜 License
 This project is licensed under the [Apache-2.0 license](LICENSE).
