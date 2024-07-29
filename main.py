@@ -40,7 +40,7 @@ def update_visibility(download_all):
 
 # 创建Gradio界面
 with gr.Blocks() as iface:
-    gr.Markdown("# HuggingFace Model Downloader")
+    gr.Markdown("# HuggingFace-Downloader-WebUI")
     gr.Markdown("1.Enter the model name and your HuggingFace token to download the model. You can customize the download patterns or download all files.")  
     with gr.Row():
         model_name = gr.Textbox(lines=1, placeholder="Enter Model Name", label="Model Name")
